@@ -1,4 +1,6 @@
 #include<iostream>
+// #include <stdlib.h>
+// #define clrscr(); system("cls");
 
 int main()
 {
@@ -7,6 +9,7 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
+            std::cout<<"Enter the Number for"<<"("<<i<<j<<")";
             std::cin>>arr[i][j];
             /* code */
         }
@@ -17,10 +20,10 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            std::cout<<arr[i][j];
+            std::cout<<arr[i][j]<<"\t";
             /* code */
         }
-        
+        std::cout<<"\n";
         /* code */
     }
     return 0;

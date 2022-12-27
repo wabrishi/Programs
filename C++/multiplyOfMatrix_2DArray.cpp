@@ -5,7 +5,7 @@ int main()
     tag:
     std::cout<<"Enter the number row and colume for Matrix - ";
     std::cin>>a>>b>>c>>d;
-    int arr1[a][b],arr2[c][d],i,j;
+    int arr1[a][b],arr2[c][d],M12[a][d],i,j;
     if(b==c)
     {
         // Read First Array
@@ -32,12 +32,19 @@ int main()
             
             /* code */
         }
-        std::cout<<"Sum Of Array \n";
+        std::cout<<"Multiply Of Matrix Is \n";
         for (int i = 0; i < a; i++)
         {
             for (int j = 0; j < b; j++)
             {
-                std::cout<<arr1[i][j]+arr2[i][j]<<"\t";
+                M12[i][j] = 0;
+                for (int k = 0; k < b; k++)
+                {
+                    M12[i][j] +=arr1[i][j]*arr2[i][j];
+                    /* code */
+                }
+                
+                std::cout<<M12[i][j]<<"\t";
                 /* code */
             }
             std::cout<<"\n";

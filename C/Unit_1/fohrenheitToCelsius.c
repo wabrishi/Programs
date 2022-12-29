@@ -6,8 +6,6 @@ int main()
     printf("F - for Celsius to Fahrenheit\nC - for Fahrenheit To Celsius\n");
     printf("Enter the Charecter(F or C) = ");
     scanf("%s",&c);
-    // printf("Enter the number to covert");
-    // scanf("%f",&a);
     switch (c)
     {
     case 'C':

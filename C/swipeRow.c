@@ -4,10 +4,9 @@
 int main()
 {
     int r,c,temp;
-    int end,start;
-
-    int rows = 3;
-    int columns = 3;
+    int end,start,rows,columns;
+    printf("Enter the Row and colume = ");
+    scanf("%d%d",&rows,&columns);
     int a[rows][columns]; 
     for(int i=0; i<rows;i++){
         for(int j=0;j<columns;j++ ){
@@ -24,7 +23,14 @@ int main()
             temp=a[i][start];
             a[i][start]=a[i][end];
             a[i][end]=temp;
+            if (start<end)
+            {
+                end--;
+                start++;
+            }
         }
+        end=columns-1;
+        start=0;
     }
     
     for(r=0;r<rows;r++){

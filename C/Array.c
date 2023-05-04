@@ -33,6 +33,7 @@ int main() {
   {
       if(arr[i]>m1 && arr[i]>m2)
       {
+         m2=m1;
          m1=arr[i];
       }else if(arr[i]<m1 && arr[i]>m2)
       {

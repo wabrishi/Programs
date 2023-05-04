@@ -55,7 +55,7 @@ int main()
             }
             
         }
-        printf("sparc Matrix:\n");
+        printf("sparce Matrix:\n");
         for(int i=0;i<smr;i++)
         {
             for(int j =0;j<smc;j++)

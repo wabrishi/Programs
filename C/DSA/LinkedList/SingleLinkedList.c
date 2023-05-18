@@ -58,22 +58,27 @@ node * delfirst(node *h)
 }
 node *dellast(node *h)
 {
-    node *t,*temp;
+    node *prev,*end;
     if (h==0)
     {
         printf("their is No Element in list..........");
         return h;
     }
-    t=h;
-    while (t->next->next!=0)
+    
+    if (h->next==0)
     {
-        
-        t=t->next;
-
+        free(h);
+        return 0;
     }
-    temp=t->next;
-    t->next=0;
-    free(temp);
+    end=h;
+    while(end->next->next!=0)
+    {
+        end = end->next;
+    }
+    prev = end->next;
+    end->next = NULL;
+    
+    free(prev);
     return h;
     
     
@@ -87,7 +92,9 @@ void display(node *h)
     else{
         while (h)
         {
-            printf("%d\t",h->data);
+            
+            printf("[%d]\t",h->data);
+            // printf("\n Head is %d",h);
             h=h->next;
 
         }
@@ -101,7 +108,7 @@ int main()
     while (1)
     {
         /* code */
-        printf("Current List Value: ");
+        printf("Current List [Value]: ");
         display(head);
 
         printf("\n1. Add First\n");

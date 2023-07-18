@@ -1,17 +1,12 @@
-*Link of Pseudo Code:* 
+Dear Ma'am, 
 
-Duration of Exam: 40 Minutes
-Total Questions: 30
-Timing:  2:00 PM to 2:30 PM 
+Please ask the students to use the following link to attempt the test. 
 
-https://docs.google.com/forms/d/e/1FAIpQLSdatUalJzsYGsfqdLgpBdpelCBG1qStclFaVStfbvuesd-LOg/viewform?usp=sharing
+Link for test: http://t.dos.lc/glbitm-shortlisting-test 
 
-*Coding Test on HackerRank:* 
+- The test will start at 2 PM, on 18th July 2023. 
+- Students will need to be connected to an uninterrupted Internet connection. 
+- Any plagiarism or copying of codes will be automatically deducting scores.
+- For any issues during the test, please WhatsApp at +919971743858 
 
-Duration of Exam: 60 Minutes
-Total Questions: 4
-Timing:  02:30 PM to 3:30 PM
-
-*_Link of Coding Exam :_* 
-
-https://www.hackerrank.com/mca-1-coding-test-1
+Regards,
